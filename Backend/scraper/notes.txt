@@ -1,0 +1,16 @@
+Progress
+-starting the scraper activates main, which will begin the data scrapper
+-right now the database object in app.py is diff than result object sent from main.py, which is causing it to fail to save to database
+
+General Idea
+-right now just worrying about ammo
+-Upon loading page, should pull all data from the database to populate front page
+-If user clicks on a specific ammo type, it should update OR have an update button next to the ammo
+
+
+start_scraper uses init and is the update function
+add_scraper uses add.py and is the add specific url function
+start_scraper_all uses scrape_all.py and is the scrape function
+
+3/7/2024 TODO
+-modify datascraper to not include $ for price, and not include + for quantity 99+
